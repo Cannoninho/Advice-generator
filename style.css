@@ -4,34 +4,51 @@ main {
     align-items: center;
     background-color: hsl(218, 23%, 16%);
     height: 100vh;
+    font-weight: 800;
 }
 
-p {
+.card .advice-description {
     font-size: 28px;
 }
 
-h2 {
-    color: hsl(150, 100%, 66%);;
+.card .advice-ad {
+    font-size: 23px;
+    padding: 23px;
+    text-align: center;
+    color: hsl(150, 100%, 66%);
+}
+
+.card picture img {
+    width: 100%;
 }
 
 .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: hsl(217, 19%, 24%);
-    width: 550px;
-    height: 313px;
-    line-height: 52px;
-    text-align: center;
+    max-width: 450px;
     padding: 20px;
-    border-radius: 25px;
+    border-radius: 10px;
+    
 }
 
 .dice {
     display: flex;
     justify-content: center;
     align-items: center;
+    transform: translateY(85%); 
     background-color: hsl(150, 100%, 66%);
     height: 60px;
     width: 60px;
+    border: none;
     border-radius: 50%;
+}
+
+.card .dice:hover {
+    color: #53FFAB;
+    cursor: pointer;
+    box-shadow: 0 5px 15px hsl(150, 100%, 66%);
 }
 
 .icon {
