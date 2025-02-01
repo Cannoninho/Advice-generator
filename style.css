@@ -1,0 +1,41 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(218, 23%, 16%);
+    height: 100vh;
+}
+
+p {
+    font-size: 28px;
+}
+
+h2 {
+    color: hsl(150, 100%, 66%);;
+}
+
+.card {
+    background-color: hsl(217, 19%, 24%);
+    width: 550px;
+    height: 313px;
+    line-height: 52px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.dice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(150, 100%, 66%);
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.icon {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
